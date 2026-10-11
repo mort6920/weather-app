@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h1>🌤 cuaca sekarang</h1>
+        <p class="subtitle">pilih lokasi untuk liat kondisinya</p>
+      </header>
+
+      <div class="controls">
+        <select id="city-select">
+          <option value="">-- pilih lokasi --</option>
+          <option value="lenteng">lenteng agung</option>
+          <option value="blok m">blok m</option>
+          <option value="palmerah">palmerah</option>
+          <option value="pasar rebo">pasar rebo</option>
+          <option value="puncak bogor">puncak bogor</option>
+          <option value="depok">depok</option>
+        </select>
+
+        <button id="get-weather-btn">Get Weather</button>
+      </div>
+
+      <!-- Weather card — hidden until data arrives -->
+      <div id="weather-card" class="weather-card hidden">
+        <div class="card-top">
+          <img id="weather-icon" src="" alt="weather icon" />
+          <div class="card-top-text">
+            <p id="location"></p>
+            <p id="weather-main"></p>
+          </div>
+        </div>
+
+        <div class="temp-row">
+          <div class="temp-box">
+            <span class="label">Temp</span>
+            <span id="main-temperature" class="value"></span>
+          </div>
+          <div class="temp-box">
+            <span class="label">terasa seperti</span>
+            <span id="feels-like" class="value"></span>
+          </div>
+        </div>
+
+        <div class="detail-grid">
+          <div class="detail">
+            <span class="detail-label">kelembapan</span>
+            <span id="humidity" class="detail-value"></span>
+          </div>
+          <div class="detail">
+            <span class="detail-label">angin</span>
+            <span id="wind" class="detail-value"></span>
+          </div>
+          <div class="detail">
+            <span class="detail-label">tiupan</span>
+            <span id="wind-gust" class="detail-value"></span>
+          </div>
+        </div>
+
+        <p id="nametag">_wndr4</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
