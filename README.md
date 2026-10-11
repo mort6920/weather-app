@@ -1,12 +1,12 @@
 # 🌤 weather app
 
-App cuaca sederhana buat ngecek kondisi cuaca di beberapa lokasi sekitar Jakarta dan sekitarnya. Dibuat sebagai bagian dari lab freeCodeCamp.
+App cuaca sederhana buat ngecek kondisi cuaca di beberapa lokasi tempat biasa dev nya main. Dibuat sebagai bagian dari mini project.
 
 ---
 
 ## link
 
-0
+https://weatherappcihuy.netlify.app/
 
 ---
 
