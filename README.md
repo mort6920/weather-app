@@ -19,8 +19,7 @@ https://weatherappcihuy.netlify.app/
 - Puncak Bogor
 - Depok
 
-Kalau mau tambah lokasi baru, tinggal tambah koordinatnya di objek `locationCoords` di `script.js` dan tambah option baru di `index.html`
-fyi:lokasi ini berdasarkan tempat biasa saya main.
+Kalau mau tambah lokasi baru, tinggal tambah koordinatnya di objek `locationCoords` di `script.js` dan tambah option baru di `index.html`.
 
 ---
 
