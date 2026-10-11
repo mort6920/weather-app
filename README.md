@@ -1,15 +1,12 @@
-# 🌤 Cuaca Sekarang
+# 🌤 weather app
 
 App cuaca sederhana buat ngecek kondisi cuaca di beberapa lokasi sekitar Jakarta dan sekitarnya. Dibuat sebagai bagian dari lab freeCodeCamp.
 
 ---
 
-## Cara Pakai
+## link
 
-1. Buka `index.html` di browser
-2. Pilih lokasi dari dropdown
-3. Klik tombol **Get Weather**
-4. Data cuaca langsung muncul — suhu, kelembapan, kecepatan angin, sampai ikon kondisi langit
+0
 
 ---
 
@@ -22,7 +19,8 @@ App cuaca sederhana buat ngecek kondisi cuaca di beberapa lokasi sekitar Jakarta
 - Puncak Bogor
 - Depok
 
-Kalau mau tambah lokasi baru, tinggal tambah koordinatnya di objek `locationCoords` di `script.js` dan tambah option baru di `index.html`.
+Kalau mau tambah lokasi baru, tinggal tambah koordinatnya di objek `locationCoords` di `script.js` dan tambah option baru di `index.html`
+fyi:lokasi ini berdasarkan tempat biasa saya main.
 
 ---
 
@@ -74,5 +72,3 @@ challange 5 build a Weather App/
 - Nametag di bawah kartu posisinya random tiap refresh, sengaja
 
 ---
-
-*made by _wndr4*
